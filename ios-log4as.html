@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="apple-itunes-app" content="app-id=987244449"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Log4AS</title>
+
+	<style data-strip-on-export>
+	[contentEditable] {
+		outline: none;
+	}
+	#controls {
+		position: fixed;
+		padding: 10px;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		text-align: right;
+		z-index: 10;
+	}
+	#controls button {
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		color: black;
+		background-color: white;
+		padding: 0.5em;
+		font-weight: bold;
+		border: none;
+		box-shadow: 0px 0px 3px gray;
+	}
+	#controls button:hover {
+		background-color: #eee;
+	}
+	</style>
+	
+	
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+html, body, #content {
+	margin: 0px;
+	height: 100%;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: #79B5D8;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 1.4;
+}
+#splash {
+	height: 100%;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	max-width: 700px;
+	margin: auto;
+	position: relative;
+}
+@media screen and (min-width: 700px) {
+	#splash > div {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 1em;
+		height: 100%;
+	}
+	#splash #left {
+		text-align: right;
+	}
+	#splash #right {
+		text-align: left;
+	}
+	#splash .iphone {
+		width: 288px;
+		height: 576px;
+	}
+	#screenshots img {
+		max-width: 200px;
+	}
+	#like-container {
+		position: absolute;
+		top: 100%;
+		right: 20px;
+		margin-top: -50px;
+	}
+}
+#chevron {
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	margin-top: -2em;
+	color: #5e7d9a;
+	opacity: 0.5;
+	margin-left: -0.5em;
+}
+@media screen and (max-width: 700px) {
+	#chevron {
+		display: none;
+	}
+	#splash .iphone {
+		width: 192px;
+		height: 384px;
+		display: inline-block;
+	}
+	#splash #left {
+		padding: 10px;
+	}
+	#screenshots img {
+		max-width: 100px;
+	}
+	#splash .appstore {
+		display: none;
+	}
+}
+img.appstore {
+	max-width: 120px;
+}
+.iphone {
+	background-size: contain;
+	position: relative;
+	width: 720px;
+	height: 1440px;
+}
+.iphone img {
+	position: absolute;
+	top: 17.9%;
+	left: 14%;
+	width: 73%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", sans-serif;
+	font-weight: normal;
+}
+#icon-row {
+	margin: 30px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	position: relative;
+}
+#icon-row #icon-container {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	border: 10px solid #f7f7f7;
+}
+#icon-row img {
+	width: 100%;
+	border-radius: 19px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+#description {
+	margin: auto;
+	width: 90%;
+	max-width: 600px;
+}
+#screenshots {
+	margin-bottom: 2em;
+}
+#screenshots img {
+	border: 1px solid white;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	margin: 1em;
+}
+#description {
+	white-space: pre-wrap;
+}
+#stars {
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+}
+#stars span {
+	display: block;
+	font-size: 30px;
+	font-style: normal;
+}
+#attribution {
+	font-size: small;
+	padding: 2em;
+}
+#attribution a {
+	color: #5e7d9a;
+}
+</style>
+
+
+</head>
+<body>
+
+<div id='content' contentEditable>
+<div id='chevron' class='fa fa-chevron-down'></div>
+<div id='splash'>
+	<div id='left'>
+		<h1>Log4AS</h1>
+		<p>Log4AS is a simple logbook for professional anaesthetists, which provides an intuitive user interface and key word suggestion for fast record entry.</p>
+		<a href="https://itunes.apple.com"> <img class='appstore' src='./img/app-store.svg'></a>
+	</div>
+	<div id='right'>
+		<div class='iphone'>
+			<img src='./img/ios-log4as/home.png'/>
+		</div>
+	</div>
+</div>
+
+<div id='icon-row'>
+	<div id='icon-container'>
+		<img src='./img/icon/ios-log4as-icon-full.jpg'/>
+	</div>
+</div>
+
+<div id='screenshots'>
+		<img src='./img/ios-log4as/s-1.jpg'/>
+		<img src='./img/ios-log4as/s-2.jpg'/>
+		<img src='./img/ios-log4as/s-3.jpg'/>
+		<img src='./img/ios-log4as/s-4.jpg'/>
+</div>
+<p id='description'>
+Log4AS is a simple logbook, which provides an intuitive user interface and key word suggestion for fast record entry. It can capture all the required information in an operation and is helpful for professional anaesthetists worldwide. 
+
+★ Intuitive data entry, view, and search 
+
+★ Completed report/summary generation
+
+★ Easy import from other systems  
+
+★ Easy local and online backup </p>
+
+<p>
+	<a href='https://itunes.apple.com/us/app/log4as/id987244449?ls=1&mt=8&amp;uo=4'><img class='appstore' src='./img/app-store.svg' alt='Download on the Apple App Store'/></a>
+</p>
+
+
+<p id='copyright'>&copy; 2012-2015 M-PAX group </p>
+
+</div>
+
+</body>
+</html>
